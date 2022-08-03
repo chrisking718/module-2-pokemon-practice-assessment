@@ -65,7 +65,7 @@ describe("getAllPokemonNames()", () => {
   });
 });
 
-describe("checkIfAnyPokemonWeighsLessThan()", () => {
+describe.only("checkIfAnyPokemonWeighsLessThan()", () => {
   test("should use the `.some()` method", () => {
     const text = checkIfAnyPokemonWeighsLessThan.toString();
     expect(text).toMatch(/\.some\(.*\)/s);
